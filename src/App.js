@@ -12,6 +12,7 @@ function App() {
         <p id="titleGroup">Kelompok 40</p>
       </header>
       <Routes>
+        <Route path="/" element={<Movie />} />
         <Route path="/movie" element={<Movie />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
